@@ -19,7 +19,7 @@ yarn install
 ### ホットリロード
 
 ```
-yarn watch
+yarn start
 ```
 
 ### ビルド

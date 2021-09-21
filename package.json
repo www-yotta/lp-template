@@ -25,7 +25,7 @@
     "css:sass": "node-sass src/sass/style.scss -o src/css --output-style expanded --source-map src/css",
     "watch:server": "browser-sync start --server src --files 'src, **/*.html, !node_modules/**/*'",
     "watch:css": "watch \"npm run css:sass\" ./src/sass",
-    "watch": "npm-run-all -p watch:*",
+    "start": "npm-run-all -p watch:*",
     "build:html": "cpx -C ./src/*html ./dist",
     "build:babel": "babel ./src/js --out-dir ./dist/js",
     "build:js/uglifyjs": "uglifyjs dist/js/index.js -o dist/js/index.js",
