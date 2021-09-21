@@ -1,1 +1,2 @@
-console.log("yes");
+alert();
+console.log(123);
