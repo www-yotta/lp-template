@@ -6,7 +6,7 @@
 
 - sass を使った css の記述
 - css の minify 化
-- js の nimify 化
+- js の minify 化
 
 ## 使い方
 
